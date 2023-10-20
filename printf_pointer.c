@@ -5,8 +5,8 @@
  * @val: arguments.
  * Return: counter.
  */
-int print_pointer(va_list val)
-{
+int print_pointer(va_list val)  /* comment */
+{   /* comment */
 	void *p;
 	char *s = "(nil)";
 	long int a;
